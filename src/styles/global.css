@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #FAF9F5;
+    color: #111111;
+  }
+
+  /* Custom luxury scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF9F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D5D1C5;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8C8573;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Luxury button and interaction styling */
+.btn-luxury {
+  @apply relative inline-flex items-center justify-center px-8 py-3.5 text-xs font-semibold tracking-widest uppercase transition-all duration-300 ease-out bg-luxury-black text-white hover:bg-neutral-800 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-luxury-outline {
+  @apply relative inline-flex items-center justify-center px-8 py-3.5 text-xs font-semibold tracking-widest uppercase transition-all duration-300 ease-out bg-transparent text-luxury-black border border-luxury-black hover:bg-luxury-black hover:text-white active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-luxury-ghost {
+  @apply relative inline-flex items-center justify-center px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all duration-300 ease-out text-luxury-black hover:text-neutral-500 active:scale-[0.98];
+}

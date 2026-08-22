@@ -1,0 +1,8 @@
+# robots.txt for Ari & Styles
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /order-success
+Disallow: /account
+
+Sitemap: https://ariandstyles.com/sitemap.xml
