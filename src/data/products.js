@@ -683,6 +683,40 @@ export const products = [
     isFeatured: false,
     isBestSeller: false,
     tags: ["cap", "headwear", "hat", "accessories", "streetwear"]
+  },
+  {
+    id: "as-top-001",
+    slug: "Cute-layered-tank-top",
+    name: "Cute Layered Tank Top",
+    category: "tops",
+    subcategory: "Tank Tops",
+    gender: "Women",
+    shortDescription: "A cute layered pink tank top designed for a stylish and comfortable everyday look.",
+    description: "A cute pink layered tank top with a stylish silhouette, perfect for casual everyday outfits and easy layering.",
+    price: 450,
+    originalPrice: 690,
+    discount: 35,
+    thumbnail: "/products/pink-top.jpeg",
+    images: [
+     "/products/pink-top.jpeg"
+    ],
+    sizes: ["S", "M", "L"],
+    colors: [
+      { name: "Pink", hex: "#FFC0CB" }
+    ],
+    rating: 0,
+    reviewCount: 0,
+    reviews: [],
+    stock: "IN STOCK",
+    stockCount: 20,
+    sku: "AS-TOP-001",
+    material: "Please update",
+    fit: "Please update",
+    careInstructions: "Please update",
+    isNew: true,
+    isFeatured: true,
+    isBestSeller: false,
+    tags: ["top", "tank-top", "pink", "layered", "women"]
   }
 ];
 
