@@ -717,6 +717,74 @@ export const products = [
     isFeatured: true,
     isBestSeller: false,
     tags: ["top", "tank-top", "pink", "layered", "women"]
+  },
+  {
+    id: "as-top-002",
+    slug: "dtf-tank-top",
+    name: "DTF Tank Top",
+    category: "tops",
+    subcategory: "Tank Tops",
+    gender: "Women",
+    shortDescription: "A clean and stylish white tank top designed for an effortless everyday look.",
+    description: "A versatile white tank top with a simple and comfortable design, perfect for casual outfits and easy styling.",
+    price: 499,
+    originalPrice: 699,
+    discount: 29,
+    thumbnail: "/products/dtf-tank-top.jpeg",
+    images: [
+      "/products/dtf-tank-top.jpeg"
+    ],
+    sizes: ["S", "M", "L"],
+    colors: [
+      { name: "White", hex: "#FFFFFF" }
+    ],
+    rating: 0,
+    reviewCount: 0,
+    reviews: [],
+    stock: "IN STOCK",
+    stockCount: 20,
+    sku: "AS-TOP-002",
+    material: "Please update",
+    fit: "Please update",
+    careInstructions: "Please update",
+    isNew: true,
+    isFeatured: true,
+    isBestSeller: false,
+    tags: ["top", "tank-top", "white", "women"]
+  },
+  {
+    id: "as-top-003",
+    slug: "midnight-muse-top",
+    name: "Midnight MuseTop",
+    category: "tops",
+    subcategory: "Tops",
+    gender: "Women",
+    shortDescription: "A stylish midnight-inspired top designed for a modern and elegant look.",
+    description: "A versatile top with a stylish silhouette, perfect for creating modern everyday and evening outfits.",
+    price: 499,
+    originalPrice: 699,
+    discount: 29,
+    thumbnail: "/products/midnight-muse-top.jpeg",
+    images: [
+      "/products/midnight-muse-top.jpeg"
+    ],
+    sizes: ["S", "M", "L"],
+    colors: [
+      { name: "Midnight", hex: "#191970" }
+    ],
+    rating: 0,
+    reviewCount: 0,
+    reviews: [],
+    stock: "IN STOCK",
+    stockCount: 20,
+    sku: "AS-TOP-003",
+    material: "Please update",
+    fit: "Please update",
+    careInstructions: "Please update",
+    isNew: true,
+    isFeatured: true,
+    isBestSeller: false,
+    tags: ["top", "midnight", "women", "fashion"]
   }
 ];
 
